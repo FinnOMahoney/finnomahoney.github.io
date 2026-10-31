@@ -47,7 +47,8 @@
   {{- if not .Date.IsZero }}
   {{- $author := .Params.author | default (partial "author.html" .) -}}
   <div class="post__meta">
-    <span>{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
+    {{- $ausTime := .Date.Local -}}
+    <span>{{ $ausTime | time.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
     {{- if .ReadingTime }}<span>{{ i18n "minutesRead" (dict "count" .ReadingTime) }}</span>{{ end }}
     {{- /* Opt-in, because Hugo's .Lastmod is not a statement that the author
            revised anything. With enableGitInfo the default frontmatter.lastmod
@@ -59,7 +60,8 @@
            Still compared by calendar day: even when it is meaningful, a commit
            hours after publication is not an update. */ -}}
     {{- if and (.Site.Params.showLastmod | default false) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
-      <span class="post__meta-updated">{{ i18n "updatedOn" (dict "date" (.Lastmod.Format (.Site.Params.DateFormat | default "January 2, 2006"))) }}</span>
+      {{- $ausLastmod := .Lastmod.Local -}}
+      <span class="post_meta-updated">{{ i18n "updatedOn" (dict "date" ($ausLastmod | time.Format (.Site.Params.DateFormat | default "January 2, 2006"))) }}</span>
     {{- end }}
     {{- with $author }}<span class="post__meta-author">{{ i18n "byAuthor" (dict "name" .) }}</span>{{ end }}
   </div>
