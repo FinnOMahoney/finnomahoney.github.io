@@ -1,20 +1,18 @@
 ---
-title: "Welcome to nuno"
-description: "What the theme is, what it deliberately leaves out, and how to put a site on it in about ten minutes."
-date: 2026-05-04T09:00:00Z
-categories: ["Design"]
-series: ["Getting to know nuno"]
+title: "First Project"
+description: "What this portfolio was set up for."
+date: 2026-010-31T09:00:00Z
+categories: ["Project"]
+series: ["Getting to know me"]
 seriesOrder: 1
-seriesGroup: "Design"
-tags: ["Hugo", "Design", "Getting started"]
+seriesGroup: "Project"
+tags: ["Portfolio", "Project", "Getting started"]
 ---
 
-nuno is a Hugo theme for people who write. It has one typeface, four palettes,
-a single accent colour, and no third-party requests at all. The home page you
-arrived on is the whole design argument: a masthead that types itself, a column
-of numbered cards, and nothing else competing for attention.
+Hey! My name is Finn.
+This space will be a location for me to share my progress, and blog on general everyday things.
 
-## What you get
+## Portfoio Navigation
 
 The parts worth knowing about, in rough order of how often you will touch them:
 
@@ -27,46 +25,32 @@ The parts worth knowing about, in rough order of how often you will touch them:
   content directories and the pages simply do not exist.
 - **A resume** rendered from `data/resume.yaml` rather than hand-written HTML.
 
-## What it deliberately leaves out
+## Why I've Created This
 
-No cover images on posts. No author avatars in bylines. No related-posts block,
-no social share buttons, no comment engine, no analytics. Every one of those was
-considered and dropped, because each one is a request you did not need and a
-decision the reader did not ask you to make.
+Use these tools to their fullest extent to explore my interests, contact information and general life.
 
 {{< callout type="note" >}}
-A link shared to LinkedIn or WhatsApp still needs a preview image, so the theme
-emits `og:image` from a post's `cover` even though it never renders a cover on
-the page itself.
+You could also search me up on `google.com`, but I thought this was a cooler way to explore my life. 
 {{< /callout >}}
 
-> Every feature you add is a feature someone has to read past.
+> Every feature is something someone has to read.
 >
-> — the whole design brief, more or less
+> — The whole design brief, more or less
 
-## Getting started
+## Getting Started
 
-Drop the theme into `themes/nuno/` and point your config at it:
+If you would like to see all the code, go to:
 
-```yaml
-theme: nuno
-outputs:
-  home: [HTML, RSS, JSON]   # JSON is the search index — the theme needs it
-markup:
-  tableOfContents: { startLevel: 2, endLevel: 3 }
-  highlight: { noClasses: false }
+```link
+github.com
 ```
 
-That is the minimum. Everything under `params` is optional; leave it all out and
-you get the design defaults.
+That is the minimum. Everything is `free` and optional to view, dont feel required to do anything
 
 {{< callout type="tip" >}}
-Start from `exampleSite/hugo.toml`. It lists every parameter the theme reads,
-with the default written next to it as a comment.
+Start from `https://finnomahoney.github.io/`. It is the main page where each note will be listed
 {{< /callout >}}
 
-## Making it yours
+## Changes
 
-Three changes cover most of it. Set `params.masthead` to your own headline.
-Create `data/quotes.yaml` to replace the typed lines. Pick an accent with
-`params.accent`. After that you are writing Markdown, which was the point.
+Updates to this site will be happening frequently, remember to check back whenever you feel like it!

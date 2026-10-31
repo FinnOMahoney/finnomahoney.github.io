@@ -77,7 +77,7 @@ buildExpired = false
   defaultTheme = "auto"   # dark | light | auto (auto follows the OS)
 
   # --- identity ------------------------------------------------------------
-  brand = "nuno"
+  brand = "Finn O'Mahoney"
   # No `favicon` here on purpose: with it unset the theme probes assets/ for
   # favicon.{ico,svg,png} and finds assets/favicon.png. Set params.favicon only
   # for a file in static/ — it is resolved with relURL, not through the asset
@@ -85,7 +85,7 @@ buildExpired = false
   # a hardcoded /favicon.ico 404 on every page.
   ogImage = "images/example-figure.png"
   description = "A minimalist, dark-first Hugo theme. Nunito only, four palettes, no third-party requests."
-  tagline = "A Hugo theme, demonstrating itself."
+  tagline = "My life, shown to the world."
   copyright = "© 2026 · MIT licensed"
 
   # params.portrait is deliberately unset so the About page shows the empty
@@ -117,7 +117,7 @@ buildExpired = false
   homeHeader = "masthead"
   homeStyle = "grid"
   homeGroupByYear = false
-  masthead = 'Minimal<span class="accent">,</span><br>dark<br>by default.'
+  masthead = '<span class="accent">Hello,</span><br> my name <br> is <span class="accent">Finn.</span>'
   mainSections = ["posts"]
   DateFormat = "2 January 2006"
 
