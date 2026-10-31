@@ -34,6 +34,7 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Build with Hugo
         run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
