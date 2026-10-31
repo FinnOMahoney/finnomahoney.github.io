@@ -23,7 +23,7 @@
 baseURL = "https://finnomahoney.github.io/"
 locale = "en-gb"
 title = "nuno"
-# theme = "nuno"
+theme = []
 
 enableRobotsTXT = true
 buildDrafts = false
