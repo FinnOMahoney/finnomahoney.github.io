@@ -9,7 +9,7 @@ seriesGroup: "Project"
 tags: ["Portfolio", "Project", "Getting started"]
 ---
 
-<span class="accent">Hello!</span> My name is Finn. <br>
+<span class="accent"><b> Hello! </b></span> My name is <i>Finn</i> :p <br>
 This space will be a virtual space for me to share my projects, 
 progress, and general opinion everyday thing.
 
@@ -62,5 +62,5 @@ very first page where each note will be listed.
 
 Updates to this site will be happening frequently, remember to check back whenever you feel like it!
 If you have any suggestions, feel free to contact me on my personal email. <br>
-<b> Happy viewing! </b> <br>
-- Finn O'Mahoney
+<b> Happy viewing! </b> <br><br>
+-- <span class="accent">Finn O'Mahoney</span> --
