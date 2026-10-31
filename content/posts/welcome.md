@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my Portfolio"
 description: "Why this website was created and my plans for the future"
-date: 2026-10-31T16:00:00+11:00
+date: 2026-10-31T16:30:00+11:00
 categories: ["Project"]
 series: ["Getting to know me"]
 seriesOrder: 1
@@ -38,24 +38,29 @@ The parts worth knowing about, in rough order of how often you will use them:
   first keystroke, never on first paint.
 - **Two independent switches**: light/dark, and a warm brown or deep green
   ground. That is four palettes, and both choices are remembered.
-- **A certifications section** and **a bookshelf**, if you want them. Skip the
-  content directories and the pages simply do not exist.
-- **A resume** rendered from `data/resume.yaml` rather than hand-written HTML.
+- **A projects section** and **a bookshelf**, to see my interests.
+- **A virtual resume** rendered rather than hand-written.
 
 ## Getting Started
 
-If you would like to see all the code, go to:
+If you want to see all my posts or any other catagory, the header at the top
+links you directly to each sub-section of this website.
 
-```link
-github.com
+```link to github
+https://github.com/FinnOMahoney/finnomahoney.github.io
 ```
 
-That is the minimum. Everything is `free` and optional to view, dont feel required to do anything
+That is the minimum. Everything will forever be `free` and optional to view; 
+this was only intended as a bit of fun anyways!
 
 {{< callout type="tip" >}}
-Start from `https://finnomahoney.github.io/`. It is the main page where each note will be listed
+Start from <a href="https://finnomahoney.github.io/"> Main Page </a>. It is the
+very first page where each note will be listed.
 {{< /callout >}}
 
 ## Changes
 
 Updates to this site will be happening frequently, remember to check back whenever you feel like it!
+If you have any suggestions, feel free to contact me on my personal email. <br>
+<b> Happy viewing! </b> <br>
+- Finn O'Mahoney

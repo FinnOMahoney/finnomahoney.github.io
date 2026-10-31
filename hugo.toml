@@ -146,7 +146,7 @@ buildExpired = false
   #   categoryId = "DIC_..."
 
   [params.author]
-    name = "Finn O'Mahoney"
+    name = "Finn OMahoney"
 
   # The theme appends an RSS link itself, so do not list "rss" here — it would
   # render the same link twice.
@@ -161,9 +161,9 @@ buildExpired = false
     url = "/posts/"
     weight = 10
   [[menu.main]]
-    identifier = "certs"
-    name = "Certs"
-    url = "/certs/"
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
     weight = 20
   [[menu.main]]
     identifier = "books"
