@@ -7,11 +7,11 @@
 # These are placeholders. Override them by creating data/quotes.yaml in your own
 # site root — your file replaces this one wholesale, it does not merge into it.
 lines:
-  - pre: "Write the thing.\n"
+  - pre: "Each project that I set out to do \n"
     accent: "Then make it shorter."
   - pre: "One font. Four palettes. "
-    accent: "No third-party requests."
-  - pre: "Everything here is plain text.\n"
-    accent: "That is the whole trick."
-  - pre: "Replace these lines with your own:\n"
-    accent: "data/quotes.yaml"
+    accent: "Customisation to your preference."
+  - pre: "The story of my life, \n"
+    accent: "Condensed onto one website."
+  - pre: "Purchase my novel:\n"
+    accent: "https://mybook.to/stranded-web"
