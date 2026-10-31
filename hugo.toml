@@ -7,10 +7,6 @@
 #
 # `extended` is deliberately not set: it was deprecated in Hugo 0.153.0 and
 # setting it would put a deprecation warning in every build.
-[module]
-  [module.hugoVersion]
-    min = "0.158.0"
-    # nuno — exampleSite.
 #
 # This is a complete, self-contained demo site. Nothing here points outside the
 # repository, so it builds anywhere:
@@ -23,7 +19,6 @@
 baseURL = "https://finnomahoney.github.io/"
 locale = "en-gb"
 title = "nuno"
-theme = ["."]
 
 enableRobotsTXT = true
 buildDrafts = false
