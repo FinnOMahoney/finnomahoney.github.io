@@ -1,6 +1,6 @@
 ---
 title: "First Project"
-description: "What this portfolio was set up for."
+description: "Why this portfolio was made & my plans for the future"
 date: 2026-10-30
 categories: ["Project"]
 series: ["Getting to know me"]
@@ -9,7 +9,7 @@ seriesGroup: "Project"
 tags: ["Portfolio", "Project", "Getting started"]
 ---
 
-Hey! My name is Finn.
+Hello! My name is Finn. <br>
 This space will be a location for me to share my progress, and blog on general everyday things.
 
 ## Portfoio Navigation
