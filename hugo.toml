@@ -117,7 +117,7 @@ buildExpired = false
   homeHeader = "masthead"
   homeStyle = "grid"
   homeGroupByYear = false
-  masthead = '<span class="accent">Hello,</span><br> my name <br> is <span class="accent">Finn.</span>'
+  masthead = '<span class="accent">Hello,</span> my <br> name is <br><span class="accent">Finn.</span>'
   mainSections = ["posts"]
   DateFormat = "2 January 2006"
 
