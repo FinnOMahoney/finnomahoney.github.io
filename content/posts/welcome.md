@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my Portfolio"
 description: "Why this website was created and my plans for the future"
-date: 2026-10-31T16:00:00Z
+date: 2026-10-31T16:00:00+11:00
 categories: ["Project"]
 series: ["Getting to know me"]
 seriesOrder: 1
