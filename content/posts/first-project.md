@@ -1,7 +1,7 @@
 ---
 title: "First Project"
 description: "What this portfolio was set up for."
-date: 2026-010-31T09:00:00Z
+date: 2026-31-10T16:30:00Z
 categories: ["Project"]
 series: ["Getting to know me"]
 seriesOrder: 1
