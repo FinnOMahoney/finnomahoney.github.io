@@ -1,6 +1,34 @@
 {{- $d := .Params.certMeta.earnedDate -}}
+{{- $label := .Params.certMeta.earnedDateLabel | default "" -}}
+
 {{- if $d -}}
-  {{- (time $d).Format "Jan 2006" -}}
+  {{- /* Check if $d contains a hyphen to see if it's a raw date format like 2026-10-19 */ -}}
+  {{- if in $d "-" -}}
+    {{ $label }}{{ (time $d).Format "Jan 2006" }}
+  {{- else -}}
+    {{ $label }}{{ $d }}
+  {{- end -}}
 {{- else -}}
-  {{- .Date.Format "Jan 2006" -}}
+  {{ $label }}{{ .Date.Format "Jan 2006" -}}
+{{- end -}}
+
+{{/* 2. Render Level Field (e.g., Edits or Difficulty) */}}
+{{- with .Params.certMeta.level -}}
+  <span class="cert__level" style="margin-left: 10px;">
+    <strong>{{ $.Params.certMeta.levelLabel | default "Level: " }}</strong>{{ . }}
+  </span>
+{{- end -}}
+
+{{/* 3. Render Credential ID Field (e.g., ISBN or SKU) */}}
+{{- with .Params.certMeta.credentialId -}}
+  <span class="cert__id" style="margin-left: 10px;">
+    <strong>{{ $.Params.certMeta.credentialIdLabel | default "ID: " }}</strong>{{ . }}
+  </span>
+{{- end -}}
+
+{{/* 4. Render Links Field (e.g., Purchase Links or Shop Verification) */}}
+{{- with .Params.certMeta.credentialUrl -}}
+  <span class="cert__url" style="margin-left: 10px;">
+    <strong>{{ $.Params.certMeta.credentialUrlLabel | default "Link: " }}</strong>{{ . | safeHTML }}
+  </span>
 {{- end -}}

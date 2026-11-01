@@ -3,22 +3,21 @@ title: "Stranded Book Creation"
 shortTitle: "Stranded"
 date: 2026-10-19
 certMeta:
-  # 1. Provide custom display names (Labels)
-  issuerLabel: "Publisher:"
-  earnedDateLabel: "Last Edited:"
-  levelLabel: "Edits:"
-  credentialIdLabel: "ISBN:"
-  credentialUrlLabel: "Available At:"
-
-  # 2. Provide the actual content (Values)
   issuer: "Independently Published"
   badgeImage: "images/stranded-cover.jpg"
-  earnedDate: "2026-10-31"
   status: "Published"
+  
+  # Custom Book Labels
+  earnedDateLabel: "Last Edited: "
+  levelLabel: "Edits: "
+  credentialIdLabel: "ISBN: "
+  credentialUrlLabel: "Available At: "
+
+  # Values
+  earnedDate: "2026-10-31"
   level: "Six Edits"
   credentialId: "979-8163292257"
-  credentialUrl: "<a href='https://mybook.to/stranded-web'>Amazon</a>, <a href='https://www.goodreads.com/book/show/262013271-stranded'>Goodreads</a>."
-  skills: ["Dystopian", "Fiction", "Survival"]
+  credentialUrl: "<a href='https://mybook.to/stranded-web'>Amazon</a>, <a href='https://www.goodreads.com/book/show/262013271-stranded'>Goodreads</a>"
 ---
 
 <i>Where am I?</i> A boy's eyes flash open on a beach with nothing but the clothes on his back to keep him safe. A blood-red flare directs him towards a group of kids who share his lack of memory. When a crate is spotted from the trees, the weapon inside triggers a flashback sequence for some of them, revealing small parts of their erased identities.
