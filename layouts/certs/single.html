@@ -21,27 +21,26 @@
   <div>
     <div class="prose">{{ .Content }}</div>
 
-    <dl class="cert-single__facts">
-      {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ i18n "certIssuer" }}</dt><dd>{{ . }}</dd></div>{{ end }}
-      <div class="cert-single__fact"><dt>{{ i18n "certEarned" }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
-      {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ i18n "certExpires" }}</dt><dd>{{ (time .).Format "Jan 2006" }}</dd></div>{{ end }}
-      {{- with $m.credentialId }}<div class="cert-single__fact"><dt>{{ i18n "certCredentialId" }}</dt><dd>{{ . }}</dd></div>{{ end }}
-      <div class="cert-single__fact">
-        <dt>{{ i18n "certStatus" }}</dt>
-        <dd class="{{ if $active }}accent{{ end }}">{{ $m.status | default (i18n "certStatusActive") }}</dd>
-      </div>
-      {{- with $m.skills }}<div class="cert-single__fact"><dt>{{ i18n "certSkills" }}</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
-    </dl>
+  <dl class="cert-single__facts">
+  {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.issuerLabel | default (i18n "certIssuer") }}</dt><dd>{{ . }}</dd></div>{{ end }}
+  <div class="cert-single__fact"><dt>{{ $.Params.certMeta.earnedDateLabel | default (i18n "certEarned") }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
+  {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.expiryDateLabel | default (i18n "certExpires") }}</dt><dd>{{ (time .).Format "Jan 2006" }}</dd></div>{{ end -}}
+  {{- with $m.credentialId }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.credentialIdLabel | default (i18n "certCredentialId") }}</dt><dd>{{ . }}</dd></div>{{ end }}
+  <div class="cert-single__fact">
+    <dt>{{ $.Params.certMeta.statusLabel | default (i18n "certStatus") }}</dt>
+    <dd class="{{ if $active }}accent{{ end }}">{{ $m.status | default (i18n "certStatusActive") }}</dd>
+  </div>
+  {{- with $m.skills }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.skillsLabel | default (i18n "certSkills") }}</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+</dl>
+
 
     {{- with $m.credentialUrl }}
-      {{- /* Back-link goes to the configured certs section, not a hardcoded
-             /certs/ — see params.certsSection. */ -}}
-      {{- $section := $.Site.Params.certsSection | default "certs" -}}
-      <div class="btn-row" style="margin-top:28px">
-        <a class="btn btn--accent" href="{{ . }}" rel="noopener">{{ i18n "verifyCredential" }}</a>
-        <a class="btn btn--ghost" href="{{ (printf "%s/" $section) | relURL }}">{{ i18n "allCertifications" }}</a>
-      </div>
-    {{- end }}
+  {{- $section := $.Site.Params.certsSection | default "certs" -}}
+  <div class="btn-row" style="margin-top:28px;">
+    <a class="btn btn--accent" href="{{ . }}" rel="noopener">{{ $.Params.certMeta.credentialUrlLabel | default (i18n "VerifyCredential") }}</a>
+    <a class="btn btn--ghost" href="{{ (printf "/%s/" $section) | relURL }}">{{ $.Params.certMeta.backButtonLabel | default (i18n "allCertifications") }}</a>
+  </div>
+{{- end }}
   </div>
 </main>
 {{ end }}
