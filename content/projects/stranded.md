@@ -20,11 +20,12 @@ certMeta:
   # Core Values
   earnedDate: "2026-10-31"
   credentialId: "979-8163292257"
-  credentialUrl: "https://mybook.to"
+  credentialUrl: "https://mybook.to/stranded-web"
   skills: ["Dystopian", "Fiction", "Survival"]
 ---
 
-<i>Where am I?</i> A boy's eyes flash open on a beach with nothing but the clothes on his back to keep him safe. A blood-red flare directs him towards a group of kids who share his lack of memory. When a crate is spotted from the trees, the weapon inside triggers a flashback sequence for some of them, revealing small parts of their erased identities.
+<b> 24 teenagers, an unfamiliar island, no memories.</b>
+<i>Where am I?</i> A boy's eyes flash open on a beach, nothing but the clothes on his back to keep him safe. A blood-red flare directs him towards a group of kids who share his lack of memory. When a crate is spotted from the trees, the weapon inside triggers a flashback sequence for some of them, revealing small parts of their erased identities.
 <br><br>
 They must collaborate to survive their lack of equipment, creating laws and roles to keep discipline within the group. However, unbeknownst to them,- danger lurks behind every corner; threatening to collapse their stable sense of order.`
 
