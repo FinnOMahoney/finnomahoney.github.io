@@ -15,6 +15,9 @@
   </div>
 </header>
 
+{{- $m := .Params.certMeta -}}
+{{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
+
 <main id="main" class="cert-single">
   {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 120 "class" "cert-single__badge") }}
 
