@@ -1,21 +1,3 @@
-{{ define "wrapclass" }}wrap--post{{ end }}
-{{ define "main" }}
-{{- $m := .Params.certMeta -}}
-{{- $active := eq (lower ($m.status | default "")) "active" -}}
-
-<header class="post__header">
-  <div class="post__headline">
-    {{- with $m.issuer }}<span class="kicker kicker--accent">{{ . }}</span>{{ end }}
-    <h1 class="post__title">{{ .Title }}</h1>
-  </div>
-  <div class="post__meta">
-    <span>{{ partial "cert-date.html" . }}</span>
-    <span>{{ $m.status | default (i18n "certStatusActive") }}</span>
-    {{- with $m.level }}<span>{{ . }}</span>{{ end }}
-  </div>
-</header>
-
-{{ define "main" }}
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
@@ -51,4 +33,3 @@
     {{- end }}
   </div>
 </main>
-{{ end }}
