@@ -26,7 +26,15 @@
 <main class="certs__groups" id="main">
   {{- range $groups }}
     <section class="certs__group">
-      <span class="kicker certs__issuer">{{ .issuer }}</span>
+      <span class="kicker certs__issuer">
+        {{- if eq .issuer "Independently Published" -}}
+          Book Publisher: {{ .issuer }}
+        {{- else if eq .issuer "Online Store" -}}
+          Storefront: {{ .issuer }}
+        {{- else -}}
+          {{ .issuer }}
+        {{- end -}}
+      </span>
       <div class="certs__rows">
         {{- range .items }}
           {{- $m := .Params.certMeta -}}

@@ -3,13 +3,21 @@ title: "Stranded Book Creation"
 shortTitle: "Stranded"
 date: 2026-10-19
 certMeta:
-  issuer: "Independantly Published"
+  # 1. Provide custom display names (Labels)
+  issuerLabel: "Publisher:"
+  earnedDateLabel: "Last Edited:"
+  levelLabel: "Edits:"
+  credentialIdLabel: "ISBN:"
+  credentialUrlLabel: "Available At:"
+
+  # 2. Provide the actual content (Values)
+  issuer: "Independently Published"
   badgeImage: "images/stranded-cover.jpg"
   earnedDate: "2026-10-31"
   status: "Published"
   level: "Six Edits"
   credentialId: "979-8163292257"
-  credentialUrl: <a href="https://mybook.to/stranded-web">Amazon</a>, </a href="https://www.goodreads.com/book/show/262013271-stranded>Goodreads</a>.
+  credentialUrl: "<a href='https://mybook.to/stranded-web'>Amazon</a>, <a href='https://www.goodreads.com/book/show/262013271-stranded'>Goodreads</a>."
   skills: ["Dystopian", "Fiction", "Survival"]
 ---
 
