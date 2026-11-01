@@ -15,6 +15,7 @@
   </div>
 </header>
 
+{{ define "main" }}
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
@@ -50,3 +51,4 @@
     {{- end }}
   </div>
 </main>
+{{ end }}
