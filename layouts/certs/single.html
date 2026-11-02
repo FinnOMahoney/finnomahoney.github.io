@@ -3,29 +3,29 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- 1. RESTORED HEADER SECTION: Displays the main title and page metadata -->
-<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 20px 0 10px 0;">
-  <!-- Shows your custom label group header or the default issuer theme tag -->
+<!-- 1. CORRECTED FULL-WIDTH HEADER SECTION -->
+<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 40px 0 20px 0; width: 100%;">
+  <!-- Displays the actual value (e.g. "Independently Published") or falls back to i18n -->
   <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; color: var(--accent, #b38600);">
-    {{- $.Params.certMeta.issuerLabel | default (i18n "certIssuer") -}}
+    {{- $m.issuer | default (i18n "certIssuer") -}}
   </span>
   
-  <h1 class="cert-single__title" style="font-size: 2.5rem; font-weight: 800; margin: 8px 0 12px 0; letter-spacing: -0.02em;">
+  <h1 class="cert-single__title" style="font-size: 2.5rem; font-weight: 800; margin: 8px 0 12px 0; letter-spacing: -0.02em; text-align: left;">
     {{ .Title }}
   </h1>
   
-  <div class="cert-single__subtitle" style="font-size: 0.9rem; opacity: 0.6; margin-bottom: 20px;">
+  <div class="cert-single__subtitle" style="font-size: 0.9rem; opacity: 0.6; margin-bottom: 20px; text-align: left;">
     {{ partial "cert-date.html" . }} 
     {{ with $m.status }} · {{ . }} {{ end }}
     {{ with $m.level }} · {{ . }} {{ end }}
   </div>
 </header>
 
-<!-- 2. MAIN CONTENT GRID (Your perfect two-column layout) -->
-<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 10px 0 40px 0;">
+<!-- 2. MAIN CONTENT GRID (Spreads perfectly to match the header width) -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 10px 0 40px 0; width: 100%;">
   
   <!-- Left Side: Large Book Cover Column with Caption -->
-  <div class="sidebar-left" style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px;">
+  <div class="sidebar-left" style="width: 100%; display: flex; flex-direction: column; align-items: start; gap: 8px;">
     {{- $img := resources.Get $m.badgeImage -}}
     {{- if $img -}}
       <img src="{{ $img.RelPermalink }}" width="280" height="420" alt="{{ .Title }}" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 14px rgba(0,0,0,0.3);">
@@ -33,7 +33,7 @@
       {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 240 "class" "cert-single__badge") }}
     {{- end -}}
     
-    <span style="font-size: 0.8rem; opacity: 0.6; text-align: center; font-style: italic; margin-top: 4px;">The eBook cover</span>
+    <span style="font-size: 0.8rem; opacity: 0.6; text-align: center; font-style: italic; margin-top: 4px; width: 100%;">The eBook cover</span>
   </div>
 
   <!-- Right Side: Content Column -->
