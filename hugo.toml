@@ -18,7 +18,7 @@
 
 baseURL = "https://finnomahoney.github.io/"
 locale = "en-gb"
-title = "finnomahoney"
+title = "Finn's Portfolio"
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -75,7 +75,6 @@ buildExpired = false
   accentLight = ""        # empty = derive a darkened variant that clears 4.5:1
   ground = "brown"        # brown | green
   defaultTheme = "auto"   # dark | light | auto (auto follows the OS)
-  favicon = "images/favicon.png"
 
   # --- identity ------------------------------------------------------------
   brand = "Finn O'Mahoney"
@@ -85,9 +84,10 @@ buildExpired = false
   # pipeline. If neither exists the theme emits no icon link at all, which beats
   # a hardcoded /favicon.ico 404 on every page.
   ogImage = "images/example-figure.png"
-  description = "A minimalist, dark-first Hugo theme. Nunito only, four palettes, no third-party requests."
-  tagline = "My life, shown to the world."
+  description = "My portfolio website, sharing my projects and progress."
+  tagline = "My progress, shown to the world."
   copyright = "© 2026 · MIT licensed"
+  favicon = "images/favicon.png"
 
   # params.portrait is deliberately unset so the About page shows the empty
   # portrait frame — set it to an image under assets/ or static/ to fill it.
