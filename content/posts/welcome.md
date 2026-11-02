@@ -9,7 +9,7 @@ seriesGroup: "Project"
 tags: ["Portfolio", "Project", "Getting started"]
 ---
 
-<span class="accent"><b> Hello! </b></span> My name is <i>Finn</i> :p <br>
+<span class="accent">Hello!</span> My name is <i><b>Finn.</b></i><br>
 This space will be a virtual space for me to share my projects, 
 progress, and general opinion everyday thing.
 

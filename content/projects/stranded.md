@@ -29,7 +29,7 @@ certMeta:
 <b> 24 teenagers, an unfamiliar island, no memories.</b> <br>
 <i>Where am I?</i> A boy's eyes flash open on a beach, nothing but the clothes on his back to keep him safe. A blood-red flare directs him towards a group of kids who share his lack of memory. When a crate is spotted from the trees, the weapon inside triggers a flashback sequence for some of them, revealing small parts of their erased identities.
 <br><br>
-They must collaborate to survive their lack of equipment, creating laws and roles to keep discipline within the group. However, unbeknownst to them,- danger lurks behind every corner; threatening to collapse their stable sense of order.`
+They must collaborate to survive their lack of equipment, creating laws and roles to keep discipline within the group. However, unbeknownst to them,- danger lurks behind every corner; threatening to collapse their stable sense of order.
 
 ## Process
 
@@ -41,7 +41,12 @@ that each and every scond was worth the struggle. <br>
 > - <b>Fivver</b> and <b>Photopea</b> were used for cover design.<br>
 > - The final product was uploaded on <b>Amazon</b> and is availiable to purchase right now! <br>
 
+
+{{< callout type="note" >}}
+From the `2/11/2016`, there has been a total of <b>six</b> updates to the manuscript since the origional was uploaded to Amazon for review. That's a lot of edits!
+{{< /callout >}}
+
 ## Common Questions
 
-Q. Do you want to become an author? <br>
-A. I have no intentions to become a proffesional author, but I doubt think this will be my last novel.
+<b>Q.</b> Do you want to become an author? <br>
+<b>A.</b> I have no intentions to become a proffesional author, but I doubt think this will be my last novel.
