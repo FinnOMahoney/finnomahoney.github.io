@@ -184,3 +184,5 @@ buildExpired = false
 [security.funcs]
   getenv = ["^HUGO_", "^CI$"]
 
+[params]
+  favicon = "images/favicon.png"
