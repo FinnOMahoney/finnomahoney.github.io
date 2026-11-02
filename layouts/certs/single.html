@@ -3,10 +3,10 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- Removed theme border completely by forcing border:none! and padding matches layout width -->
-<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 10px 0 0 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end; border: none !important; border-bottom: none !important; box-shadow: none !important;">
+<!-- 1. FULL-WIDTH HEADER SECTION -->
+<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 25px 0 0 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end; border: none !important; border-bottom: none !important; box-shadow: none !important;">
   
-  <!-- Header Left: Gold Kicker with spacing and bold title -->
+  <!-- Header Left: Gold Kicker and Ultra-Bold Title -->
   <div style="display: flex; flex-direction: column; text-align: left;">
     <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.05em; color: var(--accent, #b38600); margin-bottom: 12px;">
       {{- $m.issuer | default (i18n "certIssuer") -}}
@@ -16,8 +16,8 @@
     </h1>
   </div>
 
-  <!-- Header Right: Text pushed completely right with a bit less right padding -->
-  <div class="cert-single__subtitle" style="font-size: 0.95rem; opacity: 0.7; text-align: right; line-height: 1.4; padding-bottom: 2px; padding-right: 0px; margin-right: -10px;">
+  <!-- Header Right: Pushed left slightly by adjusting margin-right to pull it away from the edge -->
+  <div class="cert-single__subtitle" style="font-size: 0.95rem; opacity: 0.7; text-align: right; line-height: 1.4; padding-bottom: 2px; margin-right: 15px;">
     <div style="font-weight: 700; color: var(--text-main); font-size: 1.1rem;">
       {{ partial "cert-date.html" . }}
     </div>
@@ -29,8 +29,11 @@
 
 </header>
 
-<!-- 2. MAIN CONTENT GRID (Set to 1000px max width to reduce the excess right-hand layout stretch) -->
-<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1000px; margin: 0 auto; padding: 25px 0 40px 0; width: 100%;">
+<!-- Restored a clean, faint horizontal separator line -->
+<hr style="max-width: 1100px; margin: 25px auto 15px auto; border: 0; border-top: 1px solid rgba(255,255,255,0.08); width: 100%;">
+
+<!-- 2. MAIN CONTENT GRID (Restored back to 1100px to shift cover left into perfect alignment) -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 15px 0 40px 0; width: 100%;">
   
   <!-- Left Side: Book Cover Artwork Column -->
   <div class="sidebar-left" style="width: 100%; display: flex; flex-direction: column; align-items: start; gap: 8px;">
@@ -46,7 +49,7 @@
   <!-- Right Side: Content Column -->
   <div class="content-right" style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
     
-    <!-- Project Details Table (Brought back the original theme divider borders) -->
+    <!-- Project Details Table -->
     <div style="width: 100%;">
       <h2 class="details-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.01em;">Project Details:</h2>
       <dl class="cert-single__facts" style="width: 100%; display: flex; flex-direction: column;">
