@@ -18,7 +18,7 @@
 
 baseURL = "https://finnomahoney.github.io/"
 locale = "en-gb"
-title = "nuno"
+title = "finnomahoney"
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -75,6 +75,7 @@ buildExpired = false
   accentLight = ""        # empty = derive a darkened variant that clears 4.5:1
   ground = "brown"        # brown | green
   defaultTheme = "auto"   # dark | light | auto (auto follows the OS)
+  favicon = "images/favicon.png"
 
   # --- identity ------------------------------------------------------------
   brand = "Finn O'Mahoney"
@@ -183,6 +184,3 @@ buildExpired = false
 
 [security.funcs]
   getenv = ["^HUGO_", "^CI$"]
-
-[params]
-  favicon = "images/favicon.png"
