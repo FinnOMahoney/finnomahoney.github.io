@@ -3,21 +3,27 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- Main wrapper with custom CSS grid layout to utilize the right space -->
-<main id="main" class="cert-single" style="display: grid; grid-template-columns: 240px 1fr; gap: 40px; align-items: start; max-width: 1200px; margin: 0 auto; padding: 20px;">
+<!-- Adjusted grid gap and layout width to push writing further to the left -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 40px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 20px 0;">
   
-  <!-- Left Side: Large Book Cover Column -->
-  <div class="sidebar-left" style="display: flex; flex-direction: column; gap: 20px;">
-    {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 240 "class" "cert-single__badge") }}
+  <!-- Left Side: Custom Large Book Cover without the badge box constraints -->
+  <div class="sidebar-left" style="width: 100%;">
+    {{- $img := resources.Get $m.badgeImage -}}
+    {{- if $img -}}
+      <!-- Direct asset render to scale your cover accurately up to full column width -->
+      <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    {{- else -}}
+      {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 240 "class" "cert-single__badge") }}
+    {{- end -}}
   </div>
 
-  <!-- Right Side: Content Column -->
-  <div class="content-right" style="display: flex; flex-direction: column; gap: 30px;">
+  <!-- Right Side: Content Column pushed closer to the left side cover image -->
+  <div class="content-right" style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
     
-    <!-- 1. Project Details Table shifted directly to the top -->
-    <div>
+    <!-- 1. Project Details Table -->
+    <div style="width: 100%;">
       <h2 class="details-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.01em;">Project Details</h2>
-      <dl class="cert-single__facts">
+      <dl class="cert-single__facts" style="width: 100%;">
         {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.issuerLabel | default (i18n "certIssuer") }}</dt><dd>{{ . }}</dd></div>{{ end }}
         <div class="cert-single__fact"><dt>{{ $.Params.certMeta.earnedDateLabel | default (i18n "certEarned") }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
         {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.expiryDateLabel | default (i18n "certExpires") }}</dt><dd>{{ (time .).Format "Jan 2006" }}</dd></div>{{ end -}}
@@ -30,8 +36,8 @@
       </dl>
     </div>
 
-    <!-- 2. About the Project Description sitting underneath details table -->
-    <div>
+    <!-- 2. About the Project Description -->
+    <div style="width: 100%;">
       <h2 class="project-heading" style="margin-bottom: 12px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.02em;">About the Project</h2>
       <div class="prose" style="line-height: 1.6;">{{ .Content }}</div>
     </div>
