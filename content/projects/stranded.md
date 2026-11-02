@@ -43,19 +43,22 @@ that each and every scond was worth the struggle. <br>
 
 
 {{< callout type="note" >}}
-From the `2/11/2016`, there has been a total of <b>six</b> updates to the manuscript since the origional was uploaded to Amazon for review. That's a lot of edits!
+At this point on the `2/11/2016`, there has been a total of <b>seven</b> updates to the manuscript since the origional was uploaded to Amazon for review. That's a `lot` of edits!
 {{< /callout >}}
 
 ## Common Questions
 
-<b>Q.</b> Do you want to become an author? <br>
-<b>A.</b> I have no intentions to become a proffesional author, but I highly doubt think this will be my last novel.<br><br>
+<b>Q.</b><i> Do you want to become an author? </i><br>
+<span class="accent"><b>A.</b></span> I have no intentions to become a proffesional author, but I highly doubt think this will be my last novel.<br>
 
-<b>Q.</b> How long did this take you? <br>
-<b>A.</b> It took me an entire year, starting early January to October of 2026. At the start, I took it easier, but near the end it was hours on end, every single night. Although it was a significant challenge, I now cherish the entire process. Edits are continuously going underway, so the answer is: <b> I havn't stopped </b>
+<b>Q.</b><i> How long did this take you? </i><br>
+<span class="accent"><b>A.</b></span> It took me an entire year, starting early January to October of 2026. At the start, I took it easier, but near the end it was hours on end, every single night. Although it was a significant challenge, I now cherish the entire process. Edits are continuously going underway, so the answer is: <b> I havn't stopped </b>
+
+<b>Q.</b><i> What was the total cost of the project? </i><br>
+<span class="accent"><b>A.</b></span> Just below <b> $190 </b>, including the cover designer
 
 ## Final Notes
 
-Thanks for everyone who supported me and purchased my book, every little thing makes a `huge` impact for me.<br><br>
+Thanks for everyone who supported me and purchased my novel, each little thing makes a `huge` impact to me.<br>
 
 Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and <a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed!
