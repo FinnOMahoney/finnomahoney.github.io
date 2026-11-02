@@ -32,7 +32,7 @@
 <!-- Tightened divider line margins -->
 <hr style="max-width: 1100px; margin: 15px auto 15px auto; border: 0; border-top: 1px solid rgba(255,255,255,0.1); width: 100%;">
 
-<!-- 2. MAIN CONTENT GRID (Padding adjusted to bring everything closer together) -->
+<!-- 2. MAIN CONTENT GRID -->
 <main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 5px 0 40px 0; width: 100%;">
   
   <!-- Left Side: Book Cover Artwork Column -->
@@ -53,7 +53,6 @@
     <div style="width: 100%;">
       <h2 class="details-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.01em;">Project Details</h2>
       <dl class="cert-single__facts" style="width: 100%;">
-        {{- Panes := $m -}}
         {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.issuerLabel | default (i18n "certIssuer") }}</dt><dd>{{ . }}</dd></div>{{ end }}
         <div class="cert-single__fact"><dt>{{ $.Params.certMeta.earnedDateLabel | default (i18n "certEarned") }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
         {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.expiryDateLabel | default (i18n "certExpires") }}</dt><dd>{{ (time .).Format "Jan 02, 2006" }}</dd></div>{{ end -}}
@@ -68,7 +67,7 @@
 
     <!-- About the Project Description -->
     <div style="width: 100%;">
-      <h2 class="project-heading" style="margin-bottom: 12px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.02em;">About the Project</h2>
+      <h2 class="project-heading" style="margin-bottom: 12px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.02em;">About the Project:</h2>
       <div class="prose" style="line-height: 1.6;">{{ .Content }}</div>
     </div>
 
