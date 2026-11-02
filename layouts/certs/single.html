@@ -3,15 +3,15 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- 1. CONDENSED FULL-WIDTH HEADER SECTION WITH EXTRA BOLD / LARGE TITLE -->
-<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 25px 0 5px 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end;">
+<!-- 1. CONDENSED FULL-WIDTH HEADER SECTION -->
+<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 10px 0 0 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end;">
   
-  <!-- Header Left: Gold Kicker and Ultra-Bold Main Title -->
+  <!-- Header Left: Gold Kicker with more spacing below it, and Ultra-Bold Title -->
   <div style="display: flex; flex-direction: column; text-align: left;">
-    <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.05em; color: var(--accent, #b38600);">
+    <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.05em; color: var(--accent, #b38600); margin-bottom: 12px;">
       {{- $m.issuer | default (i18n "certIssuer") -}}
     </span>
-    <h1 class="cert-single__title" style="font-size: 4rem; font-weight: 900; margin: 4px 0 0 0; letter-spacing: -0.03em; line-height: 1.05; color: var(--text-main, #fff);">
+    <h1 class="cert-single__title" style="font-size: 4rem; font-weight: 900; margin: 0; letter-spacing: -0.03em; line-height: 1.05; color: var(--text-main, #fff);">
       {{ .Title }}
     </h1>
   </div>
@@ -29,11 +29,8 @@
 
 </header>
 
-<!-- Tightened divider line margins -->
-<hr style="max-width: 1100px; margin: 15px auto 15px auto; border: 0; border-top: 1px solid rgba(255,255,255,0.1); width: 100%;">
-
-<!-- 2. MAIN CONTENT GRID -->
-<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 5px 0 40px 0; width: 100%;">
+<!-- 2. MAIN CONTENT GRID (Brought tightly up to the header text) -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 25px 0 40px 0; width: 100%;">
   
   <!-- Left Side: Book Cover Artwork Column -->
   <div class="sidebar-left" style="width: 100%; display: flex; flex-direction: column; align-items: start; gap: 8px;">

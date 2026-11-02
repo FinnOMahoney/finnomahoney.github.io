@@ -2,7 +2,7 @@
 title: "Stranded Book Creation"
 shortTitle: "Stranded"
 type: "certs"
-date: 2026-10-19
+date: 2026-10-31 # For Hugo's cronological system; put last edited
 certMeta:
   issuer: "Independently Published"
   badgeImage: "images/stranded-cover.jpg"
@@ -18,7 +18,7 @@ certMeta:
   backButtonLabel: "Back to Projects"
 
   # Core Values
-  earnedDate: "2026-10-31"
+  earnedDate: "2026-10-19"
   credentialId: "979-8163292257"
   credentialUrl: "https://mybook.to/stranded-web"
   skills: ["Dystopian", "Fiction", "Survival"]
