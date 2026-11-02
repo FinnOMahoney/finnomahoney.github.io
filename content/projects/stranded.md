@@ -49,8 +49,11 @@ From the `2/11/2016`, there has been a total of <b>six</b> updates to the manusc
 ## Common Questions
 
 <b>Q.</b> Do you want to become an author? <br>
-<b>A.</b> I have no intentions to become a proffesional author, but I doubt think this will be my last novel.
+<b>A.</b> I have no intentions to become a proffesional author, but I highly doubt think this will be my last novel.<br><br>
+
+<b>Q.</b> How long did this take you? <br>
+<b>A.</b> It took me an entire year, starting early January to October of 2026. At the start, I took it easier, but near the end it was hours on end, every single night. Edits are still happening, but the I cherish the whole process.
 
 ## Final Notes
 
-Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and </a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed.
+Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and <a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed.
