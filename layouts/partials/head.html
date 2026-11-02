@@ -160,3 +160,4 @@ d.setAttribute('data-theme',t);d.setAttribute('data-ground',g);d.style.colorSche
 {{- with ($s.Params.appleTouchIcon | default $s.Params.label.icon) }}
 <link rel="apple-touch-icon" href="{{ . | relURL }}">
 {{- end }}
+<link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
