@@ -39,7 +39,7 @@ that each and every scond was worth the struggle. <br>
 > What tools were used to make it
 > - <b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
 > - <b>Fivver</b> and <b>Photopea</b> were used for cover design.<br>
-> - The final product was uploaded on <b>Amazon</b> and is availiable to purchase right now! <br>
+> - The final product was uploaded on <b>Amazon</b> and is availiable to purchase <a href="https://mybook.to/stranded-web"><i>right now!<i></a> <br>
 
 
 {{< callout type="note" >}}
@@ -50,3 +50,7 @@ From the `2/11/2016`, there has been a total of <b>six</b> updates to the manusc
 
 <b>Q.</b> Do you want to become an author? <br>
 <b>A.</b> I have no intentions to become a proffesional author, but I doubt think this will be my last novel.
+
+## Final Notes
+
+Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and </a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed.
