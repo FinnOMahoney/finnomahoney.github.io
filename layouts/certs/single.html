@@ -47,10 +47,11 @@
 
     <!-- 3. Button Action Row -->
     {{- with $m.credentialUrl }}
-      {{- $section := $.Site.Params.certsSection | default "certs" -}}
       <div class="btn-row" style="margin-top: 15px; display: flex; gap: 15px;">
         <a class="btn btn--accent" href="{{ . }}" rel="noopener">{{ $.Params.certMeta.credentialUrlLabel | default (i18n "VerifyCredential") }}</a>
-        <a class="btn btn--ghost" href="{{ (printf "/%s/" $section) | relURL }}">{{ $.Params.certMeta.backButtonLabel | default (i18n "allCertifications") }}</a>
+        
+        <!-- Setting /projects/ as the direct default folder link -->
+        <a class="btn btn--ghost" href="{{ (printf "/%s/" ($.Site.Params.projectsSection | default "projects")) | relURL }}">{{ $.Params.certMeta.backButtonLabel | default (i18n "allCertifications") }}</a>
       </div>
     {{- end }}
     

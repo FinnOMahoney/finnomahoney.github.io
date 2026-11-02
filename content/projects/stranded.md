@@ -15,7 +15,7 @@ certMeta:
   statusLabel: "Status"
   skillsLabel: "Genres"
   credentialUrlLabel: "View on Amazon"
-  backButtonLabel: "Back to Portfolio"
+  backButtonLabel: "Back to Projects"
 
   # Core Values
   earnedDate: "2026-10-31"
