@@ -3,36 +3,48 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<main id="main" class="cert-single">
-  {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 120 "class" "cert-single__badge") }}
+<!-- Main wrapper with custom CSS grid layout to utilize the right space -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 240px 1fr; gap: 40px; align-items: start; max-width: 1200px; margin: 0 auto; padding: 20px;">
+  
+  <!-- Left Side: Large Book Cover Column -->
+  <div class="sidebar-left" style="display: flex; flex-direction: column; gap: 20px;">
+    {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 240 "class" "cert-single__badge") }}
+  </div>
 
-  <div class="cert-single__details">
-    <!-- 1. Description Section at the Top -->
-    <h2 class="project-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold;">About the Project</h2>
-    <div class="prose" style="margin-bottom: 40px;">{{ .Content }}</div>
+  <!-- Right Side: Content Column -->
+  <div class="content-right" style="display: flex; flex-direction: column; gap: 30px;">
     
-    <!-- 2. Metadata Table Section below -->
-    <h2 class="details-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold;">Project Details</h2>
-    <dl class="cert-single__facts">
-      {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.issuerLabel | default (i18n "certIssuer") }}</dt><dd>{{ . }}</dd></div>{{ end }}
-      <div class="cert-single__fact"><dt>{{ $.Params.certMeta.earnedDateLabel | default (i18n "certEarned") }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
-      {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.expiryDateLabel | default (i18n "certExpires") }}</dt><dd>{{ (time .).Format "Jan 2006" }}</dd></div>{{ end -}}
-      {{- with $m.credentialId }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.credentialIdLabel | default (i18n "certCredentialId") }}</dt><dd>{{ . }}</dd></div>{{ end }}
-      <div class="cert-single__fact">
-        <dt>{{ $.Params.certMeta.statusLabel | default (i18n "certStatus") }}</dt>
-        <dd class="{{ if $active }}accent{{ end }}">{{ $m.status | default (i18n "certStatusActive") }}</dd>
-      </div>
-      {{- with $m.skills }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.skillsLabel | default (i18n "certSkills") }}</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
-    </dl>
+    <!-- 1. Project Details Table shifted directly to the top -->
+    <div>
+      <h2 class="details-heading" style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.01em;">Project Details</h2>
+      <dl class="cert-single__facts">
+        {{- with $m.issuer }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.issuerLabel | default (i18n "certIssuer") }}</dt><dd>{{ . }}</dd></div>{{ end }}
+        <div class="cert-single__fact"><dt>{{ $.Params.certMeta.earnedDateLabel | default (i18n "certEarned") }}</dt><dd>{{ partial "cert-date.html" . }}</dd></div>
+        {{- with $m.expiryDate }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.expiryDateLabel | default (i18n "certExpires") }}</dt><dd>{{ (time .).Format "Jan 2006" }}</dd></div>{{ end -}}
+        {{- with $m.credentialId }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.credentialIdLabel | default (i18n "certCredentialId") }}</dt><dd>{{ . }}</dd></div>{{ end }}
+        <div class="cert-single__fact">
+          <dt>{{ $.Params.certMeta.statusLabel | default (i18n "certStatus") }}</dt>
+          <dd class="{{ if $active }}accent{{ end }}">{{ $m.status | default (i18n "certStatusActive") }}</dd>
+        </div>
+        {{- with $m.skills }}<div class="cert-single__fact"><dt>{{ $.Params.certMeta.skillsLabel | default (i18n "certSkills") }}</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+      </dl>
+    </div>
 
-    <!-- 3. Button Row Layout inside the container -->
+    <!-- 2. About the Project Description sitting underneath details table -->
+    <div>
+      <h2 class="project-heading" style="margin-bottom: 12px; font-size: 1.5rem; font-weight: bold; letter-spacing: -0.02em;">About the Project</h2>
+      <div class="prose" style="line-height: 1.6;">{{ .Content }}</div>
+    </div>
+
+    <!-- 3. Button Action Row -->
     {{- with $m.credentialUrl }}
       {{- $section := $.Site.Params.certsSection | default "certs" -}}
-      <div class="btn-row" style="margin-top: 40px; display: flex; gap: 15px;">
+      <div class="btn-row" style="margin-top: 15px; display: flex; gap: 15px;">
         <a class="btn btn--accent" href="{{ . }}" rel="noopener">{{ $.Params.certMeta.credentialUrlLabel | default (i18n "VerifyCredential") }}</a>
         <a class="btn btn--ghost" href="{{ (printf "/%s/" $section) | relURL }}">{{ $.Params.certMeta.backButtonLabel | default (i18n "allCertifications") }}</a>
       </div>
     {{- end }}
+    
   </div>
 </main>
 {{ end }}

@@ -24,6 +24,8 @@ certMeta:
   skills: ["Dystopian", "Fiction", "Survival"]
 ---
 
+## Description
+
 <b> 24 teenagers, an unfamiliar island, no memories.</b>
 <i>Where am I?</i> A boy's eyes flash open on a beach, nothing but the clothes on his back to keep him safe. A blood-red flare directs him towards a group of kids who share his lack of memory. When a crate is spotted from the trees, the weapon inside triggers a flashback sequence for some of them, revealing small parts of their erased identities.
 <br><br>
@@ -31,9 +33,12 @@ They must collaborate to survive their lack of equipment, creating laws and role
 
 ## Process
 
-This daunting project was a challenge every single day, but I love the finish project.
+This daunting project was a challenge every single day, but I love the finish project. <br>
+<b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
+<b>Fivver</b> and <b>Photopea</b> were used for cover design.<br>
+The final product was uploaded on <b>Amazon</b> and is availiable to purchase right now! <br>
 
 ## Common Questions
 
 Q. Do you want to become an author?
-A. No, but I don't think this will be my last novel.
+A. I have no intentions to become a proffesional author, but I doubt think this will be my last novel.

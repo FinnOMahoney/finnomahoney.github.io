@@ -7,7 +7,7 @@ certMeta:
   coverImage: "images/stranded-cover.jpg"
   lastEdited: "2026-10-29"
   status: "Published"
-  editsSincePublication: "Six"
+  editsSincePublication: "Seven"
   iSBN: "979-8163292257"
   whereToFind: <a href="https://mybook.to/stranded-web">Amazon</a>, </a href="https://www.goodreads.com/book/show/262013271-stranded>Goodreads</a>.
   genres: ["Dystopian", "Fiction", "Survival"]
