@@ -42,5 +42,5 @@ This daunting project was a challenge every single day, but I love the finish pr
 
 ## Common Questions
 
-Q. Do you want to become an author?
+Q. Do you want to become an author? <br>
 A. I have no intentions to become a proffesional author, but I doubt think this will be my last novel.

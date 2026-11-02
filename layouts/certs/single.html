@@ -3,21 +3,24 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- Adjusted grid gap and layout width to push writing further to the left -->
-<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 40px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 20px 0;">
+<!-- Main structural grid layout -->
+<main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 20px 0;">
   
-  <!-- Left Side: Custom Large Book Cover without the badge box constraints -->
-  <div class="sidebar-left" style="width: 100%;">
+  <!-- Left Side: Large Book Cover Column with Caption -->
+  <div class="sidebar-left" style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px;">
     {{- $img := resources.Get $m.badgeImage -}}
     {{- if $img -}}
-      <!-- Direct asset render to scale your cover accurately up to full column width -->
-      <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <!-- Added a clean border-radius wrapper and explicit dimensions to completely fix rendering delays -->
+      <img src="{{ $img.RelPermalink }}" width="280" height="420" alt="{{ .Title }}" style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 14px rgba(0,0,0,0.3);">
     {{- else -}}
       {{ partial "cert-badge.html" (dict "src" $m.badgeImage "alt" .Title "size" 240 "class" "cert-single__badge") }}
     {{- end -}}
+    
+    <!-- Small caption underneath the book image -->
+    <span style="font-size: 0.8rem; opacity: 0.6; text-align: center; font-style: italic; margin-top: 4px;">The eBook cover</span>
   </div>
 
-  <!-- Right Side: Content Column pushed closer to the left side cover image -->
+  <!-- Right Side: Content Column -->
   <div class="content-right" style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
     
     <!-- 1. Project Details Table -->
