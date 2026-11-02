@@ -33,9 +33,10 @@ They must collaborate to survive their lack of equipment, creating laws and role
 
 ## Process
 
-This daunting project was a challenge every single day, but I love the finish project. <br>
+This daunting project was a challenge every single day, but the finish project tells me
+that each and every scond was worth the struggle. <br>
 
-> What it was made on
+> What tools were used to make it
 > - <b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
 > - <b>Fivver</b> and <b>Photopea</b> were used for cover design.<br>
 > - The final product was uploaded on <b>Amazon</b> and is availiable to purchase right now! <br>
