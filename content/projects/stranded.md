@@ -39,7 +39,7 @@ that each and every scond was worth the struggle. <br>
 > What tools were used to make it
 > - <b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
 > - <b>Fivver</b> and <b>Photopea</b> were used for cover design.<br>
-> - The final product was uploaded on <b>Amazon</b> and is availiable to purchase <a href="https://mybook.to/stranded-web"><i>right now!<i></a> <br>
+> - The final product was uploaded on <b>Amazon</b> and is availiable to purchase <a href="https://mybook.to/stranded-web"><i>right now!</i></a> <br>
 
 
 {{< callout type="note" >}}
