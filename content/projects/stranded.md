@@ -33,8 +33,7 @@ They must collaborate to survive their lack of equipment, creating laws and role
 
 ## Process
 
-This daunting project was a challenge every single day, but the finish project tells me
-that each and every scond was worth the struggle. <br>
+This daunting project was a challenge every single day, but the finish project tells me that each and every scond was worth the struggle. <br>
 
 > What tools were used to make it
 > - <b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
