@@ -4,12 +4,12 @@ description: "Odysseus's treaturous journey through the isles back to his home t
 date: 2026-11-03
 bookMeta:
   author: "Homer"
-  coverImage: "images/covers/the-quiet-machine.png"
+  coverImage: "images/odyssey-cover.jpg"
   status: "Reading"
-  publisher: "Not applicable"
-  published: "Early 7th Century BC"
-  isbn: "9780000000003"
-  pages: 288
+  publisher: "W. W. Norton & Company"
+  published: "OG: 7th Century BC, TRNSLTD: 2018"
+  isbn: "978-0393356250"
+  pages: 592
   genre: ["Classic", "Poem", "Adventure", "History"]
 ---
 
