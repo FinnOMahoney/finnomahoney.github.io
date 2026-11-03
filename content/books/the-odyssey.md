@@ -6,15 +6,11 @@ bookMeta:
   author: "Homer"
   coverImage: "images/covers/the-quiet-machine.png"
   status: "Reading"
-  publisher: "Example Press"
-  published: "1000BC"
+  publisher: "Not applicable"
+  published: "Early 7th Century BC"
   isbn: "9780000000003"
   pages: 288
-  genre: ["Placeholder", "Technology"]
+  genre: ["Classic", "Poem", "Adventure", "History"]
 ---
 
-Because `status` is `Reading`, this book floats to the front of the shelf, gets an
-accent ring and a badge on the grid, and shows a "Reading now" marker here.
-
-It has no `rating`, so the stars are omitted entirely rather than rendered empty —
-a book you have not finished has not been judged yet.
+Just recently started, nothing to report on yet.
