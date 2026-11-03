@@ -43,7 +43,7 @@ that each and every scond was worth the struggle. <br>
 
 
 {{< callout type="note" >}}
-At this point on the `2/11/2016`, there has been a total of <b>seven</b> updates to the manuscript since the origional was uploaded to Amazon for review. That's a `lot` of edits!
+At this point on the `2/11/2016`, there has been a total of <b>seven</b> updates to the manuscript since the original was uploaded for review. That's a `lot` of edits!
 {{< /callout >}}
 
 ## Common Questions
