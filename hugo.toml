@@ -16,7 +16,7 @@
 # Copy this file to your own site root as a starting point. Every params entry
 # below is optional — the commented defaults are what you get if you omit it.
 
-baseURL = "https://finnomahoney.github.io/"
+baseURL = "https://finnomahoney.com/"
 locale = "en-gb"
 title = "Finn's Portfolio"
 
