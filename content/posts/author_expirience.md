@@ -1,7 +1,8 @@
 ---
 title: "My Author Experience"
 description: "An in-depth look at what it takes to write a novel in 2026"
-date: 2027-11-5T16:30:00+11:00
+date: 2026-11-05T16:30:00+11:00
+draft: true
 categories: ["Project"]
 series: ["Stranded"]
 seriesOrder: 1
