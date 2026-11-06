@@ -10,8 +10,8 @@ seriesGroup: "Project"
 tags: ["Novel", "Project", "Expirience"]
 ---
 
-There are plenty of online guides that tell you a step-by-step guide to self 
-publish, but not many of them truly explain what it is like to actually write one; 
+There are plenty of online guides that explain a step-by-step guide to self 
+publication, but not many of them truly explain what it is like to actually write one; 
 the fun parts, the difficult times and everything in between.  <br>
 I hope to provide a vague sense of this journey and what to look forward to (for
 better or for worse) while doing it.
@@ -19,11 +19,8 @@ better or for worse) while doing it.
 ## The Planning
 
 If you have an idea, <i>don't rush the process.</i> <br>
-The single best thing that I unintentionally did in this project was planning. In fact,
-I would go as far as saying that <i>I don't think I would have finished</i> if I didn't do one. <br> <br>
-
-With me, my idea was thought one random morning. I sprang up as soon as I woke and hopped onto my computer.
-There, I wrote my main concepts for the novel; just a few of the major scenes.
+The single best unintentional thing that I did in this project was `planning`. In fact,
+I would go as far as saying that <i>I reckon it wouldn't have finished</i> if I didn't do one. <br><br>
 
 {{< callout type="tip" >}}
 Saying that, don't spend forever planning out every individividual scene. The writing <a href="#"> (which I will get to) </a> 
@@ -32,10 +29,22 @@ thinking up new ideas to bond the charecters, develop their personalities or tak
 scenes were thought while writing, and those that wern't were modified in variation in order to fit the context.
 {{< /callout >}}
 
+With me, my idea was thought one random morning. I sprung as soon as I woke and hopped onto my computer.
+There, I wrote the main concepts for the novel; just a few of the major scenes. Over the next few days,
+I kept writing random worldbuilding elements such as the charecter names, backstories and main points of interest. <br><br>
+
 Put as simply as possible, thinking ahead of your current timeline is inevitable and even expected--formatting, 
 cover design, publishing, or possibly further than that--but you have to `embrace it` and move on. <br>
 Remmember always to <i>focus on the main task at hand</i>; nothing matters more than the present, and 
 overcomplicating it with steps you aren't up to won't do you any good.
+After this document stretched about ten pages, I began to write.
+
+
+## The Writing
+
+When I began, I had no intentions for it to actually complete it. All that was planned was the first chapter, to propperally
+get my idea down onto the page. 
+
 
 <span class="accent">Hello!</span> 
 
