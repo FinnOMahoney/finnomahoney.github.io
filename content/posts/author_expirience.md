@@ -1,7 +1,7 @@
 ---
 title: "My Author Experience"
 description: "An in-depth look at what it takes to write a novel in 2026"
-date: 2026-11-05T16:30:00+11:00
+date: 2027-11-05T16:30:00+11:00
 draft: true
 categories: ["Project"]
 series: ["Stranded"]
@@ -24,9 +24,7 @@ I would go as far as saying that <i>I reckon it wouldn't have finished</i> if I 
 
 {{< callout type="tip" >}}
 Saying that, don't spend forever planning out every individividual scene. The writing <a href="#"> (which I will get to) </a> 
-was spent thinking up of ideas to join the 4< that I had thought of. --- The funnest part of the enire process was this linking;
-thinking up new ideas to bond the charecters, develop their personalities or take a few <i>off the board</i>. I'd say 80% of my 
-scenes were thought while writing, and those that wern't were modified in variation in order to fit the context.
+was spent thinking up of ideas to join the 4< that I had thought of. ---
 {{< /callout >}}
 
 With me, my idea was thought one random morning. I sprung as soon as I woke and hopped onto my computer.
@@ -45,6 +43,11 @@ After this document stretched about ten pages, I began to write.
 When I began, I had no intentions for it to actually complete it. All that was planned was the first chapter, to propperally
 get my idea down onto the page. 
 
+{{< callout type="note" >}}
+The funnest part of the enire process was this linking;
+thinking up new ideas to bond the charecters, develop their personalities or take a few <i>off the board</i>. I'd say 80% of my 
+scenes were thought while writing, and those that wern't were modified in variation in order to fit the context.
+{{< /callout >}}
 
 <span class="accent">Hello!</span> 
 

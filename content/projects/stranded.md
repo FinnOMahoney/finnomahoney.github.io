@@ -33,7 +33,7 @@ They must collaborate to survive their lack of equipment, creating laws and role
 
 ## Process
 
-This daunting project was a challenge every single day, but the finish project tells me that each and every scond was worth the struggle. <br>
+This daunting project was a challenge every single day, but the finish project tells me that each and every second was worth the struggle. More detail will be published in an upcoming post, but for now:  <br>
 
 > What tools were used to make it
 > - <b>Google Docs</b> and <b>Reedsy</b> were used for the writing and typesetting. <br>
@@ -60,4 +60,6 @@ At this point on the `2/11/2016`, there has been a total of <b>seven</b> updates
 
 Thanks for everyone who supported me and purchased my novel, each little thing makes a `huge` impact to me.<br>
 
-Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and <a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed!
+Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and <a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed! <br> <br>
+
+Contact me with this email: <span class="accent"> omahoneyfinn@gmail.com </span>
