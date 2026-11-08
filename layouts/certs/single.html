@@ -3,25 +3,26 @@
 {{- $m := .Params.certMeta -}}
 {{- $active := or (not $m.expiryDate) (gt (time $m.expiryDate) now) -}}
 
-<!-- 1. FULL-WIDTH HEADER SECTION -->
-<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 25px 0 0 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end; border: none !important; border-bottom: none !important; box-shadow: none !important;">
+<!-- 1. HEADER SECTION (Top padding set to 0 to pull 'Independently Published' all the way up) -->
+<header class="cert-single__header" style="max-width: 1100px; margin: 0 auto; padding: 0 0 0 0; width: 100%; display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: end; border: none !important; border-bottom: none !important; box-shadow: none !important;">
   
-  <!-- Header Left: Gold Kicker and Ultra-Bold Title -->
+  <!-- Header Left: Gold Kicker and Extra Large Dynamic Title -->
   <div style="display: flex; flex-direction: column; text-align: left;">
-    <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.05em; color: var(--accent, #b38600); margin-bottom: 12px;">
+    <span class="kicker certs__issuer" style="text-transform: uppercase; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.05em; color: var(--accent, #b38600); margin-bottom: 8px; padding-top: 0;">
       {{- $m.issuer | default (i18n "certIssuer") -}}
     </span>
-    <h1 class="cert-single__title" style="font-size: 4rem; font-weight: 900; margin: 0; letter-spacing: -0.03em; line-height: 1.05; color: var(--text-main, #fff);">
+    <!-- Fixed: Removed hardcoded #fff so text changes colors cleanly between light and dark themes -->
+    <h1 class="cert-single__title" style="font-size: 4.5rem; font-weight: 900; margin: 0; letter-spacing: -0.03em; line-height: 1.05; color: var(--text-main);">
       {{ .Title }}
     </h1>
   </div>
 
-  <!-- Header Right: Small metadata info pulled left slightly from the far edge -->
+  <!-- Header Right: Small metadata info -->
   <div class="cert-single__subtitle" style="font-size: 0.95rem; opacity: 0.7; text-align: right; line-height: 1.4; padding-bottom: 2px; margin-right: 15px;">
     <div style="font-weight: 700; color: var(--text-main); font-size: 1.1rem;">
       {{ partial "cert-date.html" . }}
     </div>
-    <div style="margin-top: 2px;">
+    <div style="margin-top: 2px; color: var(--text-main);">
       {{ with $m.status }}{{ . }}{{ end }}
       {{ with $m.level }} · {{ . }}{{ end }}
     </div>
@@ -29,10 +30,10 @@
 
 </header>
 
-<!-- Applied a negative top margin to forcefully pull this divider line closer to the text -->
+<!-- Tightened divider line margins -->
 <hr style="max-width: 1100px; margin: -10px auto 5px auto; border: 0; border-top: 1px solid rgba(255,255,255,0.08); width: 100%;">
 
-<!-- 2. MAIN CONTENT GRID (Padding minimized to pull the grid flush up against the line) -->
+<!-- 2. MAIN CONTENT GRID -->
 <main id="main" class="cert-single" style="display: grid; grid-template-columns: 280px 1fr; gap: 45px; align-items: start; max-width: 1100px; margin: 0 auto; padding: 10px 0 40px 0; width: 100%;">
   
   <!-- Left Side: Book Cover Artwork Column -->
