@@ -40,8 +40,11 @@ After this document stretched about ten pages, I began to write.
 
 ## The Writing
 
-When I began, I had no intentions for it to actually complete it. All that was planned was the first chapter, to propperally
-get my idea down onto the page. 
+When I began, I had no intentions for it to actually complete it. When I began, the only thing planned was the first chapter; to propperally
+get my idea onto the page. From there, <i> I never looked back. </i><br> <br>
+
+At the beggining, I had no time constraints, which allowed me to work on it without any stress and just a side project. As time went by,
+I linked it to a school project--which gave me a inscentive to finish sooner, but also made it more stressful near the end. 
 
 {{< callout type="note" >}}
 The funnest part of the enire process was this linking;
