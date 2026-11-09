@@ -40,17 +40,13 @@ After this document stretched about ten pages, I began to write.
 
 ## The Writing
 
-When I began, I had no intentions for it to actually complete it. When I began, the only thing planned was the first chapter; to propperally
-get my idea onto the page. From there, <i> I never looked back. </i><br> <br>
-
-At the beggining, I had no time constraints, which allowed me to work on it without any stress and just a side project. As time went by,
-I linked it to a school project--which gave me a inscentive to finish sooner, but also made it more stressful near the end. 
+When I began, I had no intentions for it to actually complete it. When I began, the only thing planned was the first chapter; to propperally get my idea onto the page. From there, <i> I never looked back. </i><br> <br>
 
 {{< callout type="note" >}}
-The funnest part of the enire process was this linking;
-thinking up new ideas to bond the charecters, develop their personalities or take a few <i>off the board</i>. I'd say 80% of my 
-scenes were thought while writing, and those that wern't were modified in variation in order to fit the context.
+The funnest part of the enire process was connecting; thinking up new ideas to bond the charecters, develop their personalities or take a few <i>off the board</i>. I'd say at least 80% of my scenes were thought while in the process of writing, and those that wern't were modified in variation in order to fit the context.
 {{< /callout >}}
+
+At the beggining, I had no time constraints; which allowed me to work without stress as small side project. But as time went by, I closely aligned it with a school project. Although gaving me an inscentive to finish sooner, it added a lot of pressure near the end. Juggling the novel, school and other hobbies was draining.
 
 <span class="accent">Hello!</span> 
 
