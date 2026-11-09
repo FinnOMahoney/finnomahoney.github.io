@@ -46,7 +46,7 @@ The parts worth knowing about, in rough order of how often you will use them:
 If you want to see all my posts or any other catagory, the header at the top
 links you directly to each sub-section of this website.
 
-If you want, you can chack out the <a href="https://github.com/FinnOMahoney/finnomahoney.github.io">Github</a> page for this website.
+If you want, you can check out the <a href="https://github.com/FinnOMahoney/finnomahoney.github.io">Github</a> page for this website.
 
 That is the minimum. Everything will forever be `free` and optional to view; 
 this was only intended as a bit of fun anyways!
