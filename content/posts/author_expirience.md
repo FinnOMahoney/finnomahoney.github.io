@@ -23,30 +23,28 @@ The single best unintentional thing that I did in this project was `planning`. I
 I would go as far as saying that <i>I reckon it wouldn't have finished</i> if I didn't do one. <br><br>
 
 {{< callout type="tip" >}}
-Saying that, don't spend forever planning out every individividual scene. The writing <a href="#"> (which I will get to) </a> 
-was spent thinking up of ideas to join the 4< that I had thought of. ---
+Saying that, don't spend forever planning out every individividual scene. The writing <a href="#"> (which I will get to) </a> was spent joining together the few that I had.
 {{< /callout >}}
 
-With me, my idea was thought one random morning. I sprung as soon as I woke and hopped onto my computer.
-There, I wrote the main concepts for the novel; just a few of the major scenes. Over the next few days,
-I kept writing random worldbuilding elements such as the charecter names, backstories and main points of interest. <br><br>
+With me, the idea for my story was dremt one random morning. I sprang up as soon as I woke and hopped onto my computer to write
+the main concepts for the novel; just a few of the major scenes. Over the next few days, I kept designing scattered worldbuilding
+elements such as the charecter names, backstories and main places of interest. <br><br>
 
-Put as simply as possible, thinking ahead of your current timeline is inevitable and even expected--formatting, 
-cover design, publishing, or possibly further than that--but you have to `embrace it` and move on. <br>
-Remmember always to <i>focus on the main task at hand</i>; nothing matters more than the present, and 
-overcomplicating it with steps you aren't up to won't do you any good.
-After this document stretched about ten pages, I began to write.
+Put as simply as possible, thinking ahead of your current timeline is inevitable and was even expected with me--formatting,
+cover design, publishing, or possibly further than that--but you just have to `embrace it` and move on. <br> Remmember to always <i>focus on the main task at hand</i>; nothing matters more than the present, and overcomplicating it with steps you aren't even up to will not do you any good. After this document stretched about ten pages, I began to write.
 
 
 ## The Writing
 
-When I began, I had no intentions for it to actually complete it. When I began, the only thing planned was the first chapter; to propperally get my idea onto the page. From there, <i> I never looked back. </i><br> <br>
+When I began, I had no intentions for it to actually complete it. The only thing planned was the first chapter; to properally
+get my idea onto the page. From there, <i> I never looked back. </i><br> <br>
 
-{{< callout type="note" >}}
-The funnest part of the enire process was connecting; thinking up new ideas to bond the charecters, develop their personalities or take a few <i>off the board</i>. I'd say at least 80% of my scenes were thought while in the process of writing, and those that wern't were modified in variation in order to fit the context.
-{{< /callout >}}
+The funnest part of the enire process was this linking; thinking up new ideas to bond the charecters, develop their personalities
+or take a few <i>off the board</i>. I'd say 80% of my scenes were thought while writing, and those that wern't were modified in variation in order to fit the context. <br> <br>
 
-At the beggining, I had no time constraints; which allowed me to work without stress as small side project. But as time went by, I closely aligned it with a school project. Although gaving me an inscentive to finish sooner, it added a lot of pressure near the end. Juggling the novel, school and other hobbies was draining.
+The most challenging was the pressure. The constant feeling that, if you wern't writing, you were spending your time unproductively. I didn't have any time constraints at the begining, which allowed me to work on it without any stress as a mere side project. As time went by, I decided to closely link it to a project at school. Although this gave me a inscentive to finish sooner, the deadline also made it quite stressful near the end. <br> <br>
+
+Each page correlated to at least fourty minutes of work; <b>before editing<b>. Sometimes this could be lots more, mainly on unplanned scenes with casual charecter building, and my perfectionism made me dwell over small wording changes or phrases that just "didn't sound right". Some days were difficult to get going, but I always felt great afterwords.
 
 <span class="accent">Hello!</span> 
 
