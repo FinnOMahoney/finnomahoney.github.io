@@ -62,4 +62,4 @@ Thanks for everyone who supported me and purchased my novel, each little thing m
 
 Dont forget to review on <a href="https://mybook.to/stranded-web">Amazon</a> and <a href="https://www.goodreads.com/book/show/262013271-stranded">Goodreads</a> if you enjoyed! <br> <br>
 
-Contact me with this email: <span class="accent"> omahoneyfinn@gmail.com </span>
+For any professional inquiries, contact me at: <span class="accent"> hello@finnomahoney.com </span>
